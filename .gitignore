@@ -1,0 +1,14 @@
+# Python virtual environments & cache
+venv/
+__pycache__/
+*.py[cod]
+
+# Airflow / Astro logs & local databases
+logs/
+airflow_db.sqlite
+.astro/
+airflow-webserver.pid
+
+# Tạp nham cá nhân
+test.py
+.DS_Store
